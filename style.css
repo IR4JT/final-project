@@ -10,7 +10,7 @@ header {
 }
 
 h1{
-    padding: 40px
+    padding: 50px
 }
 
 .nav-links {
@@ -33,7 +33,4 @@ h1{
     color: #000000;
 }
 
-nav a.active{
-    color:#000000
-}
 
