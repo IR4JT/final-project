@@ -7,20 +7,13 @@ header {
     padding: 20px; 
 }
 
-h1{
-    padding: 50px
-}
+h1{padding: 50px}
 
+h2{padding: 50px}
 
-h2{
-    padding: 50px
-}
+p{padding: 50px}
 
-p{
-    padding: 50px
-}
-
-.nav-links {
+.nav-links{
     display: flex;  
     justify-content: center; 
     list-style: none;       
@@ -33,21 +26,20 @@ p{
 .nav-links a {
     text-decoration: none;  
     color: #6b6a6a;           
-    font-size: 16px;
-}
+    font-size: 16px;}
 
-.nav-links a:hover {
+.nav-links a:hover{
     color: #000000;
 }
 
-body, h1, h2, p, ul, li, a {
+body, h1,h2,p,ul,li,a{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Inter, "DM Sans", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   }
   
-  body {
+  body{
     background-color: #ffffff;
     color: #333;
     line-height: 1.6;
@@ -57,14 +49,13 @@ body, h1, h2, p, ul, li, a {
   }
 
   
-  main {
-    max-width: 520px; 
+  main{max-width: 520px; 
     margin-left: 40px; 
     margin-top: 80px;
     padding: 0 20px; 
   }
   
-  h1 {
+  h1{
     font-size: 48px;
     font-weight: 700;
     color: #000;
@@ -72,7 +63,7 @@ body, h1, h2, p, ul, li, a {
     letter-spacing: -1.5px; 
   }
   
-  h2 {
+  h2{
     font-size: 30px;
     font-weight: 600;
     color: #999;
@@ -80,7 +71,7 @@ body, h1, h2, p, ul, li, a {
     letter-spacing: -0.5px;
   }
   
-  p {
+  p{
     font-size: 18px;
     color: #555;
     line-height: 1.6;
@@ -99,3 +90,17 @@ body, h1, h2, p, ul, li, a {
     h1 { font-size: 36px; }
     h2 { font-size: 24px; }
   }
+
+.aboutpage{
+  display: flex;
+  padding: 5;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 80px 300px 0px 40px;}
+
+.aboutstuff{max-width: 500px;}
+
+.maxpicabout{
+  width: 400px;          
+  max-width: 400px;
+  height: auto;}
