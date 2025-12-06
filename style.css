@@ -46,13 +46,9 @@ h2 {
   margin-bottom: 30px;
 }
 
+.Bottom{margin: 40px;}
+
 p {font-size: 18px; color: #000000;}
-
-
-main {
-  margin: 40px 20px;
-  max-width: 520px;
-}
 
 .aboutpage {
   display: flex;
@@ -78,10 +74,7 @@ main {
 }
 
 
-.project-card {
-  width: 400px;
-  text-align: center;
-}
+
 
 .project-card img {
   width: 402px;
@@ -92,7 +85,7 @@ main {
 
 .project-card p {
   font-size: 18px;
-  color: #333333;
+  color: #999;
 }
 
 main.projects-page {
@@ -112,16 +105,19 @@ main.projects-page {
 /* youtube video for help on this was stuck for odd reason. was not centering */
 
 .project-card {
-  flex: 1 1 250px;
-  max-width: 100%; 
+  flex: 250px;
   text-align: center;
 }
+
+.Bottom{
+  text-align: left;
+}
+
 
 .project-card img {
   width: 100%; 
   height: auto; 
   border-radius: 10px;
-  margin-bottom: 12px;
   display: block;
 }
 
@@ -189,9 +185,8 @@ main.projects-page {
 
 /* I spent 30 mins not understanding that you cannot do and() it needs space. */
 
-
  @media screen and (max-width: 768px) {.projects-container {flex-direction: column; 
-  align-items: center; /* Optional: ensures they are centered */}
-  .project-card {width: 100%;max-width: 400px;}}
+  align-items: center;}}
 
-  /* needed to understand more used https://www.youtube.com/watch?v=GteJWhCikCk,https://www.youtube.com/watch?v=sanswTlz4ZY, */
+/* needed to understand more used https://www.youtube.com/watch?v=GteJWhCikCk,https://www.youtube.com/watch?v=sanswTlz4ZY, */
+
