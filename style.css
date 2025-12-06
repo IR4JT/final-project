@@ -54,7 +54,6 @@ main {
   max-width: 520px;
 }
 
-
 .aboutpage {
   display: flex;
   justify-content: space-between;
@@ -97,13 +96,38 @@ main {
 }
 
 main.projects-page {
-  max-width: 1100px;
-  margin: 40 auto 80px;  
-  padding: 20px;
+  max-width: 1200px; /* https://getbootstrap.com/docs/5.0/layout/breakpoints/ */
+  width: 90%; 
+  margin: 40px auto 80px; 
 }
 
+
+/* https://www.youtube.com/watch?v=b3xhm_2esTM */
+.projects-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 40px; }
+
+/* youtube video for help on this was stuck for odd reason. was not centering */
+
+.project-card {
+  flex: 1 1 250px;
+  max-width: 100%; 
+  text-align: center;
+}
+
+.project-card img {
+  width: 100%; 
+  height: auto; 
+  border-radius: 10px;
+  margin-bottom: 12px;
+  display: block;
+}
+
+
 /* 1600px is macbook pro screensize unless I am confusing this I had it at 1400 but it did not work on full screen. */
-@media screen and (max-width: 1600px) {
+/* @media screen and (max-width: 1600px) {
     main {
     margin: 40px 40px;
   }
@@ -121,7 +145,7 @@ main.projects-page {
   }
 }
 
-@media screen and (max-width: 1410px) {
+@media screen and (max-width: 1410px) { */
 
 
 }
@@ -129,7 +153,8 @@ main.projects-page {
 /* https://getbootstrap.com/docs/5.0/layout/breakpoints/ */
 /* I used the website above for breakpoints  */
 /* 576px */
-@media screen and (max-width: 900px) {
+
+/* @media screen and (max-width: 900px) {
 
   h1 {
   color: #200000;
@@ -152,5 +177,21 @@ main.projects-page {
     align-items: center;
   }
 
-}
+} */
 
+
+/* @media screen and (max-width: 600px) {
+  .projects-container {gap: 30px;}
+  .project-card {flex: 0 1 100%;}
+} */
+
+/* 768px is like the medium so I use this as the phone screen */
+
+/* I spent 30 mins not understanding that you cannot do and() it needs space. */
+
+
+ @media screen and (max-width: 768px) {.projects-container {flex-direction: column; 
+  align-items: center; /* Optional: ensures they are centered */}
+  .project-card {width: 100%;max-width: 400px;}}
+
+  /* needed to understand more used https://www.youtube.com/watch?v=GteJWhCikCk,https://www.youtube.com/watch?v=sanswTlz4ZY, */
