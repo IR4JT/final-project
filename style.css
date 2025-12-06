@@ -106,9 +106,6 @@ main.projects-page {
     margin: 40px 40px;
   }
 
-  .aboutpage {
-    margin: 80px 300px 80px 40px;
-  }
 
   main.projects-page {
     max-width: 1200px;
@@ -136,6 +133,8 @@ main.projects-page {
     margin: 40px 40px;
   }
 
+  .aboutpage {margin: 40px 150px;}
+
   main.projects-page {
     max-width: 1350px; 
     margin: 40px 80px;
@@ -156,4 +155,5 @@ main.projects-page {
     width: 402px;
     height: 302px;
   }
+
 }
