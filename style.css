@@ -87,7 +87,11 @@ main.projects-page {
   color: #333333;
 }
 
-@media (max-width: 360px) {
+
+
+/* https://getbootstrap.com/docs/5.0/layout/breakpoints/ */
+/* I used the website above for breakpoints  */
+@media (max-width: 576px) {
   h1 {
     font-size: 36px;
   }
@@ -130,7 +134,7 @@ main.projects-page {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1400px) {
   main {
     margin: 40px 40px;
   }
