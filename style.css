@@ -1,11 +1,18 @@
 body {
   background-color: #ffffff;
   color: #000000;
-  font-family: Inter, "DM Sans", "SF Pro Display","Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: "SF Pro Display";
   line-height: 1.5;
 }
 
 header {padding: 10px;}
+
+/* header {
+  color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+} */
 
 .nav-links {
   display: flex;
@@ -97,7 +104,7 @@ main.projects-page {
 
 /* 1600px is macbook pro screensize unless I am confusing this I had it at 1400 but it did not work on full screen. */
 @media screen and (max-width: 1600px) {
-  /* main {
+    main {
     margin: 40px 40px;
   }
 
@@ -112,19 +119,11 @@ main.projects-page {
     justify-content: flex-start;
     gap: 55px;
   }
-
-  
-  .project-card {
-    width: 402px;
-  }
-
-  .project-card img {
-    width: 402px;
-    height: 302px;
-  } */
 }
 
 @media screen and (max-width: 1410px) {
+
+
 
 }
 
