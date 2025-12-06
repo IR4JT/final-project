@@ -101,7 +101,6 @@ main.projects-page {
 
 }
 
-
 @media (min-width: 1200px) {
   main {
     margin: 40px 40px;
@@ -119,9 +118,7 @@ main.projects-page {
 
   .projects-row {
     flex-direction: row;
-    justify-content: space-between;
-    gap: 40px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
 
   .project-card {
@@ -140,16 +137,17 @@ main.projects-page {
   }
 
   main.projects-page {
-    max-width: 1366px;
-    margin: 40px auto 80px;
+    max-width: 1350px; 
+    margin: 40px 80px;
     padding: 0;
   }
 
   .projects-row {
     justify-content: flex-start;
-    gap: 60px;
+    gap: 55px;
   }
 
+  /* this is best way to center the text that i could do not sure how else maybe easier method. */
   .project-card {
     width: 402px;
   }
