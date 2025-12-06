@@ -119,7 +119,10 @@ main.projects-page {
   height: auto; 
   border-radius: 10px;
   display: block;
+  transition: transform 1s ease;
 }
+/* https://www.youtube.com/watch?v=VEHk5B78ACM help for the hover */
+.project-card:hover img {transform: translateY(-10px);box-shadow: 0 10px 10px #909090;}
 
 
 /* 1600px is macbook pro screensize unless I am confusing this I had it at 1400 but it did not work on full screen. */
