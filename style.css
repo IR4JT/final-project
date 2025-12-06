@@ -133,6 +133,10 @@ main.projects-page {
 /* 576px */
 @media screen and (max-width: 900px) {
 
+  h1 {
+  color: #200000;
+  }
+
   .aboutpage {
   display: flex;
   justify-content: space-between;
