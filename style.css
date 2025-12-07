@@ -194,43 +194,43 @@ main.projects-page {
 /* needed to understand more used https://www.youtube.com/watch?v=GteJWhCikCk,https://www.youtube.com/watch?v=sanswTlz4ZY, */
 
 
-
 /* project 1 CSS */
 
-main.project-detail-page {
+main.mypage {
   margin: 0;
   padding: 0;
-  max-width: 100%; 
+  width: 100%;
 }
 
 .long {
   width: 100%;
   height: auto;
-  display: block;
+  display: block; 
 }
 
-.Challenge {
-  max-width: 1200px;
-  padding: 60px 20px; 
+.text-container {
+  max-width: 900px;
+  margin: 0 auto; 
+  padding: 60px 20px;
 }
 
-.long h1 {
+.text-container h1 {
   font-size: 40px;
-  color: #000; 
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 24px;
 }
 
-.long {
+.text-container p {
   font-size: 20px;
   line-height: 1.6;
   margin-bottom: 24px;
   color: #333;
 }
 
-
 .Half {
   text-align: center;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 60px 20px;
 }
 
 .Half h2 {
@@ -241,32 +241,35 @@ main.project-detail-page {
 }
 
 .Half p {
-  max-width: 700px; 
+  max-width: 700px;
   margin: 0 auto 60px auto; 
+  font-size: 18px;
+  line-height: 1.6;
 }
 
 
-.stacked-images-container {
+.imgontop {
   display: flex;
   flex-direction: column;
-  align-items: center; 
-  gap: 30px; 
+  align-items: center;
+  gap: 30px;
 }
 
-.stacked-img {
-  width: 100%; 
+.imgontop .UI {
+  width: 100%;
   max-width: 700px; 
   height: auto;
   display: block;
 }
 
+
 @media screen and (max-width: 768px) {
-  .text-section h1 {
-    font-size: 32px; 
+  .text-container h1 {
+    font-size: 32px;
   }
   
-  .Half{
-    padding-top: 50px;
-    padding-bottom: 0px;
+  .text-container, .Half {
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 }
