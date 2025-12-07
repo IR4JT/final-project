@@ -235,9 +235,12 @@ main.projects-page {
   display: block;
 }
 
+/* vscode autofilled the stuff after padding like inside the .robotaxiapppng */
 .robotaxiapppng {padding-top: 20px;
  width: 100%;
  height: auto;
  display: block; }
+
+ .cavavideo {padding-top: 20px;}
 
 @media screen and (max-width: 768px) {}
