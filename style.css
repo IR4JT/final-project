@@ -196,36 +196,10 @@ main.projects-page {
 
 /* project 1 CSS */
 
-main.mypage {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
 .long {
   width: 100%;
   height: auto;
   display: block; 
-}
-
-.text-container {
-  max-width: 900px;
-  margin: 0 auto; 
-  padding: 60px 20px;
-}
-
-.text-container h1 {
-  font-size: 40px;
-  font-weight: 700;
-  color: #000;
-  margin-bottom: 24px;
-}
-
-.text-container p {
-  font-size: 20px;
-  line-height: 1.6;
-  margin-bottom: 24px;
-  color: #333;
 }
 
 .Half {
@@ -247,15 +221,14 @@ main.mypage {
   line-height: 1.6;
 }
 
-
-.imgontop {
+.Banner {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 30px;
 }
 
-.imgontop .UI {
+.UI {
   width: 100%;
   max-width: 700px; 
   height: auto;
@@ -263,13 +236,4 @@ main.mypage {
 }
 
 
-@media screen and (max-width: 768px) {
-  .text-container h1 {
-    font-size: 32px;
-  }
-  
-  .text-container, .Half {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-}
+@media screen and (max-width: 768px) {}
