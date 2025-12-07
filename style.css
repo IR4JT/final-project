@@ -235,5 +235,10 @@ main.projects-page {
   display: block;
 }
 
+.robotaxiapppng {
+  width: 100%;
+  height: auto;
+  display: block; 
+}
 
 @media screen and (max-width: 768px) {}
