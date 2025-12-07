@@ -121,7 +121,7 @@ main.projects-page {
   display: block;
   transition: transform 1s ease;
 }
-/* https://www.youtube.com/watch?v=VEHk5B78ACM help for the hover */
+/* https://www.youtube.com/watch?v=VEHk5B78ACM help for the hover and Google Search */
 .project-card:hover img {transform: translateY(-10px);box-shadow: 0 10px 10px #909090;}
 
 
