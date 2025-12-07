@@ -186,7 +186,7 @@ main.projects-page {
 
 /* 768px is like the medium so I use this as the phone screen */
 
-/* I spent 30 mins not understanding that you cannot do and() it needs space. */
+/* I spent 30 mins not understanding that you cannot do and() it needs space. Brain did not Brain*/
 
  @media screen and (max-width: 768px) {.projects-container {flex-direction: column; 
   align-items: center;}}
