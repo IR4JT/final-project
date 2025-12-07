@@ -235,10 +235,9 @@ main.projects-page {
   display: block;
 }
 
-.robotaxiapppng {
-  width: 100%;
-  height: auto;
-  display: block; 
-}
+.robotaxiapppng {padding-top: 20px;
+ width: 100%;
+ height: auto;
+ display: block; }
 
 @media screen and (max-width: 768px) {}
