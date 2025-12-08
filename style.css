@@ -243,5 +243,8 @@ main.projects-page {
 
  .attra p {color: #909090; font-size: 20px; text-align: center;}
 
-
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+  .maxpicabout {
+    display: none;
+  }
+}
